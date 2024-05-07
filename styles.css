@@ -1,0 +1,81 @@
+body{
+    background-color: grey;
+}
+h1{
+    text-align: center;
+    color: white;
+}
+.container{
+    width: 98%;
+    max-width: 340px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+    border-radius: 10px;
+    padding-top: 10px;
+}
+.camera{
+    width: 15px;
+    height: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    border-radius: 50%;
+}
+.screen{
+    width: 95%;
+    height: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(238, 238, 238);
+}
+p{
+    padding-top: 10px;
+    font-family: sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+#user-input{
+    display: block;
+    width: 90%;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    border: black 1px solid;
+    border-radius: 10px;
+}
+#results-div{
+    margin-top: 20px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    text-align: center;
+}
+.buttons{
+    margin-top: 15px;
+    display: flex;
+}
+button{
+    width: 40%;
+    height: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    background: linear-gradient(white,gray);
+    cursor: pointer;
+}
+.valids{
+    width: 95%;
+    max-width: 330px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5px;
+    padding-bottom: 12px;
+    background-color: green;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 18px;
+}
